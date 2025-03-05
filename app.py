@@ -33,7 +33,7 @@ st.header("Powered by Gemini 2.0 Flash Exp")
 @st.cache_resource
 def initialize_agent():
     return Agent(
-        name="Video AI Summarizer",
+        name="Agentic-AI-Summarizer",
         model=Gemini(id="gemini-2.0-flash-exp"),
         tools=[DuckDuckGo()],
         markdown=True,
